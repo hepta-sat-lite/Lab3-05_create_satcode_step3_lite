@@ -1,7 +1,7 @@
 #include "mbed.h"
 #include "HEPTA_EPS.h"
 HEPTA_EPS eps(PA_0,PA_4);
-Serial pc(USBTX,USBRX,9600);
+RawSerial pc(USBTX,USBRX,9600);
 int main() {
     int flag = 0; // condition
     float btvol;
