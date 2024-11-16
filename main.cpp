@@ -1,6 +1,6 @@
 #include "mbed.h"
-#include "HEPTA_EPS.h"
-HEPTA_EPS eps(PA_0,PA_4);
+#include "LITE_EPS.h"
+LITE_EPS eps(PA_0,PA_4);
 RawSerial pc(USBTX,USBRX,9600);
 int main() {
     int flag = 0; // condition
